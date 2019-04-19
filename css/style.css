@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background-image: url("assets/images/concrete_seamless.png");
+  background-color: #4aaaa5;
 }
 
 * {
@@ -77,8 +77,8 @@ h3 {
   background: #4aaaa5;
 }
 
-nav {
 
+nav {
   float: left;
   width: 100%;
   margin-top: 25px; margin-bottom: 60px;
@@ -96,6 +96,10 @@ nav a {
 
 nav a:first-child {
   border-left: 0 none;
+}
+#stripe{
+  height: 20px;
+  background-color: #4aaaa5;
 }
 
 /* footer */
@@ -145,8 +149,11 @@ h3, h2 {
 float: left; 
 margin: 10px;
 }
-#about{
-float: left;
+.about{
+float: right;
+}
+.card{
+  border: transparent; border-radius: 20px;
 }
 
 
